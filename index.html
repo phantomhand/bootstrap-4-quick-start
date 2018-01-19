@@ -22,21 +22,22 @@
                     <h1 class="display-4">Welcome to Bootstrap 4</h1>
                     <p>Just like the old Bootstrap, but better. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dolore, nulla dolores saepe necessitatibus, assumenda dolorem.</p>
                     
-                    <form action="" class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only">Name</label>
-                            <input type="text" class="from-control formcontrol-lg" placeholder="Jane Doe">
-                        </div>
-                        <div class="form-group">
-                            <label class="sr-only">Email</label>
-                            <input type="text" class="from-control formcontrol-lg" placeholder="jane.doe@example.com">
-                            <button type="submit" class="btn btn-success btn-lg">ok, go!</button>
-                        </div>
+                    <form class="form-inline justify-content-center">
+                        <label class="sr-only" for="inlineFormInputName">Name</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+                      <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+                      <div class="input-group mb-2 mr-sm-2">
+
+                        <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email">
+                      </div>
+
+                      <button type="submit" class="btn btn-success mb-2">Okay, go!</button>
                     </form>
                     
                     <br>
                     
-                    <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
+                    <a href="#nav-main" class="btn btn-outline-light btn-sm" role="button">&darr;</a>
             </div>
         </div>
     </section>
@@ -191,6 +192,191 @@
         </div>  
     </section>
     <!-- / What We Do-->
+    
+    <!-- About -->
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About Me</h3>
+                        
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae architecto nemo fuga at, blanditiis sit mollitia aspernatur accusamus, consectetur nisi ea quia laudantium totam impedit. Culpa quo nostrum nisi repudiandae?</p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est odit cum sunt labore, facere veritatis a maxime earum praesentium non accusamus alias minus atque nulla quia dolorem repellat. Sequi, tenetur.</p>
+                        
+                        <h5>Follow me on the web</h5>
+                        
+                        <a href="#" class="btn btn-sm btn-outline-secondary">Facebook</a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary">Twitter</a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary">YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / About -->
+    
+    <!-- News -->
+    <section id="news">
+        <div class="section-content">
+            <div class="container">
+                <h3>Latest News</h3>
+                
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ex saepe fuga? Quibusdam non temporibus voluptas minima doloremque neque aliquam, mollitia aspernatur, qui odio est repellat sit impedit atque error.</p>
+                
+                <hr>
+                
+                <!-- Card Columns -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                    <div class="card-columns">
+                        
+                        <div class="card">
+                            <img class="card-img-top" src="img/woman-camera.jpg" alt="Woman with a camera">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title that wraps to a new line</h5>
+                                
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                        
+                    <div class="card p-3">
+                        <blockquote class="blockquote mb-0 card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card-img-top" src="img/stars.jpg" alt="Landscape photo with stars">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                            <footer class="blockquote-footer">
+                                <small>
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card-img" src="img/computer.jpg" alt="Desk with a computer">
+                    </div>
+                       
+                    <div class="card p-3 text-right bg-warning card-inverse">
+                        <blockquote class="blockquote mb-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                        
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                        
+                    </div>
+                </div>
+                <!-- / Card Columns -->
+                
+                <hr>
+                
+                <!-- Pagination -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- / Pagination -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- / News -->
+    
+    <footer id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>(Not) &copy; 2018</p>
+                    <p>Coded by <a href="https://github.com/phantomhand">Phantom Hand</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#"></a>Home</li>
+                        <li><a href="#"></a>What We Do</li>
+                        <li><a href="#"></a>About</li>
+                        <li><a href="#"></a>Latest</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#"></a>Facebook</li>
+                        <li><a href="#"></a>Twitter</li>
+                        <li><a href="#"></a>YouTube</li>
+                        <li><a href="#"></a>LinkedIn</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6>A Tiny Header</h6>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tenetur, facilis repellendus id soluta ullam reiciendis aliquam ut cum eum sapiente accusamus, numquam! Earum officiis aliquam, sunt sit nam neque!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
