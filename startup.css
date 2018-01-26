@@ -1,8 +1,11 @@
 /* startup.css */
 
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+
 html,
 body {
     height: 100%;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 body {
@@ -11,7 +14,7 @@ body {
     color: #6c6f73;
 }
 
-h1.h2.h3.h4,h5 {
+h1,h2,h3,h4,h5 {
     color: #333;
 }
 
@@ -61,3 +64,32 @@ img {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    margin-bottom: -8rem;
+}
+
+.feature-dark {
+    background: #262f36;
+    color: white;
+}
+
+.feature-dark h2 {
+    color: white;
+}
+
+/* Media Queries */
+
+@media screen and ( min-width : 991px ) {
+    
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+}
+
