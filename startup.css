@@ -87,12 +87,17 @@ img {
     background: #f0f0f0;
 }
 
-#feature-four {
-    margin-top: -5px;
+#feature-three .feature-content,
+#feature-six .feature-content {
+    padding: 7.5rem 0;
 }
 
 #feature-four .feature-content {
     padding: 0;
+}
+
+#feature-five img {
+    padding-top: 2rem;
 }
 
 /* Media Queries */
