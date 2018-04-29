@@ -4,6 +4,8 @@ Bootstrap 4 Quick Start
 
 Version control and progress tracking for this Udemy course
 
+Certificate of completion here: https://www.udemy.com/certificate/UC-IE9NZFLM/
+
 Finished project sites can be seen here: 
 
 Project 1: Hand Code a Basic Website – http://aveni.biz/bs4-1/
